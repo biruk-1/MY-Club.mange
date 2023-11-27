@@ -1,0 +1,144 @@
+/*
+Basic Styles
+*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /*
+  Navigation
+  */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav img {
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  nav .navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav .navigation ul {
+    display: none;
+  }
+  
+  nav .navigation ul li {
+    list-style: none;
+    margin-left: 10px;
+  }
+  
+  nav .navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  /*
+  Responsive Navigation
+  */
+  @media (max-width: 768px) {
+    nav #menu-btn {
+      display: block;
+      cursor: pointer;
+      color: #fff;
+    }
+  
+    nav .navigation ul {
+      position: absolute;
+      top: 0;
+      right: -220px;
+      width: 220px;
+      background-color: rgba(17, 20, 104, 0.45);
+      backdrop-filter: blur(4.5px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      transition: 0.3s ease;
+    }
+  
+    nav .navigation ul.active {
+      right: 0;
+    }
+  
+    nav .navigation ul li {
+      padding: 20px 0 20px 40px;
+      margin-left: 0;
+    }
+  
+    nav .navigation ul li a {
+      color: #fff;
+    }
+  }
+  
+  /*
+  Home Page
+  */
+  .home-page {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("my new proj/AStuback.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .home-page h2 {
+    color: white;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+  }
+  
+  .home-page p {
+    width: 50%;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+  
+  .home-page .btn {
+    margin-top: 30px;
+  }
+  
+  .home-page a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  
+  .home-page a.blue {
+    color: #fff;
+    background: rgb(21, 21, 100);
+    transition: 0.3s ease;
+  }
+  
+  .home-page a.blue:hover {
+    color: rgb(21, 21, 
+  

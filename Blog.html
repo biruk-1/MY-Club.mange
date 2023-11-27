@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>club managment system</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
+    <link rel="stylesheet" href="club.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="blog.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav>
+        <img src="my new proj/AdamaScienceandTechnologyUniversityASTU-logo.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa fa-times" aria-hidden="true"></i>
+                <li><a href="club managmentsyst.html">Home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a class="active" href="Blog.html">blog</a></li>
+                <li><a href="activities.html">activities</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+            <i id="menu-btn" class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="about-home">
+        <h2> BLOGs/ </h2>
+       
+    </section>
+
+    <section class="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="my new proj/web deloper.jpg" alt="">
+                <h3>We can build your websites now</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem, recusandae ipsam? Voluptatibus vero dicta 
+                    nihil accusantium nobis dolorem impedit, nesciunt nostrum 
+                    possimus cupiditate exercitationem velit, eos assumenda, 
+                    quo magni fuga?</p>
+                <a href="post.html">Read more</a>
+            </div>
+            
+                <div class="post">
+                    <img src="my new proj/team comun.jpg" alt="">
+                    <h3>We are known by collobration</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Exercitationem, recusandae ipsam? Voluptatibus vero dicta 
+                        nihil accusantium nobis dolorem impedit, nesciunt nostrum 
+                        possimus cupiditate exercitationem velit, eos assumenda, 
+                        quo magni fuga?</p>
+                    <a href="post.html">Read more</a>
+                </div>
+
+                <div class="post">
+                    <img src="my new proj/machiene.jpg" alt="">
+                    <h3>We love programming and problem solving</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Exercitationem, recusandae ipsam? Voluptatibus vero dicta 
+                        nihil accusantium nobis dolorem impedit, nesciunt nostrum 
+                        possimus cupiditate exercitationem velit, eos assumenda, 
+                        quo magni fuga?</p>
+                    <a href="post.html">Read more</a>
+                </div>
+                
+                <div class="post">
+                    <img src="my new proj/building.jpg" alt="">
+                    <h3>We are here to build honesty and</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Exercitationem, recusandae ipsam? Voluptatibus vero dicta 
+                        nihil accusantium nobis dolorem impedit, nesciunt nostrum 
+                        possimus cupiditate exercitationem velit, eos assumenda, 
+                        quo magni fuga?</p>
+                    <a href="post.html">Read more</a>
+                </div>
+                    
+
+            </div>
+                
+                <div class="cate">
+                   <h2>catagories</h2>
+                   <hr>
+                   <a href="#">web devlopment</a> 
+                   <hr>
+                   <hr>
+                   <a href="#">web Design</a> 
+                   <hr>
+                   <hr>
+                   <a href="#">App devlopment</a> 
+                   <hr>
+                   <hr>
+                   <a href="#">Front End web devlopment</a> 
+                   <hr>
+                   <hr>
+                   <a href="#">Python programming</a> 
+                   <hr>
+                   <hr>
+                   <a href="#">java script hackton</a> 
+                   <hr>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- footer -->
+
+        <footer>
+            <div class="footer-column">
+                <h3>Top Services</h3>
+                <li>manage Reputation</li>
+                <li>Power Tools</li>
+                <li>managed Websites</li>
+
+            </div>
+            <div class="footer-column">
+                <h3>Guides</h3>
+                <li>Research</li>
+                <li>Experts</li>
+               
+            </div>
+            <div class="footer-column">
+                <h3>Guides</h3>
+                <li>Research</li>
+                <li>Experts</li>
+               
+            </div>
+
+            <div class="footer-column">
+                <h3>Guides</h3>
+                <li>Research</li>
+                <li>Experts</li>
+               
+            </div>
+
+            <div class="footer-column">
+                <h3>news letter</h3>
+                <p>you can trust us. us only sent promo offers.</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email adress">
+                    <a href="#" class="yellow">subscribe</a>
+                </div>
+            </div>
+
+            <!-- <div class="copy-right">
+                <p>copy-right @2023 All right reserved</p>
+                <div class="profile-links">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </div>
+            </div> -->
+        </footer>
+
+        <script>
+            $(document).ready(function() {
+                $('#menu-btn').click(function(){
+                    $('nav .navigation ul').addClass('active');
+                });
+            
+                $('#menu-close').click(function(){
+                    $('nav .navigation ul').removeClass('active');
+                });
+            });
+        </script>
+</body>
+</html>
